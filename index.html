@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/65bb99c3d5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html"><img src="/assets/iconoAllura.png" alt="Logo Allura"></a>
+        <h1 class="animation">Encriptador de Texto</h1>
+    </header>
+
+    <main>
+        <div class="text-container">
+            <textarea name="original-text" class="text" id="original-text" cols="35" rows="10"
+                placeholder="Ingrese el texto aquí"></textarea>
+
+
+            <div class="buttons">
+                <p><img src="/assets/exclamation-circle-fill.svg" alt="exclamation">Sólo letras minúsculas y sin
+                    acentos</p>
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+            </div>
+        </div>
+
+        <div id="aside-empty">
+            <img src="/assets/boyLooking.png" alt="Mensaje no encontrado">
+            <h3>Ningún mensaje fue encontrado</h3>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+
+        <div id="aside-result">
+            <textarea name="result-text" id="result-text" class="text" cols="25" rows="12"></textarea>
+            <button id="copy-btn">Copiar</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Realizado por <span>Romina Doval</span> - Challenge ONE: Encriptador de Texto</p>
+        <i class="fa-solid fa-grip-lines-vertical"></i>
+        <div>
+            <a href="https://www.linkedin.com/in/romina-doval/" target="_blank"><i
+                    class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/Romina-Doval" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
