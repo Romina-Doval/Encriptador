@@ -55,10 +55,6 @@ h1 {
 }
 
 
-.animation {
-  animation: scale-animation 1.5s infinite alternate;
-}
-
 @keyframes scale-animation {
   0% {
     transform: scale(1);
