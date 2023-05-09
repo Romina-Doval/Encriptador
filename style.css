@@ -275,6 +275,10 @@ footer span {
         width: 85%;
     }
 
+    button {
+        width: 40%;
+    }
+
     .buttons {
         margin-left: 5%;
     }
